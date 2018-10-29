@@ -1,6 +1,6 @@
 package com.company;
 
-public class Nodo<T> {
+public class Nodo {
     Nodo izquierdo;
     Nodo derecho;
     int dato;
