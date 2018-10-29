@@ -5,7 +5,7 @@ import java.util.*;
 public class Grafo {
     private HashMap<String, Persona> personas = new HashMap();
 
-    private HashSet<Persona> pasados = new HashSet<>();
+    private HashSet<Persona> amigosVerificados = new HashSet<>();
 
     private HashMap<Integer, Set> niveles = new HashMap<Integer, Set>();
 
@@ -54,23 +54,23 @@ public class Grafo {
         List<Persona> amigos = persona.getListaAmigos();
 
         this.niveles.clear();
-        this.pasados.clear();
+        this.amigosVerificados.clear();
 
-        this.pasados.add(persona);
+        this.amigosVerificados.add(persona);
 
 
         do{
-            HashSet<Persona> nivelHasSet = new HashSet<>();
+            HashSet<Persona> nivelHashSet = new HashSet<>();
 
-            niveles.put(cont,  nivelHasSet );
+            niveles.put(cont,  nivelHashSet );
 
             if( cont == 1 ){
-                // Recorremos los amigos
+                //
                 for( Persona amigo: amigos ){
 
                     // Validamos si ya fue filtrado
-                    if( this.pasados.add( amigo ) ){
-                        nivelHasSet.add( amigo );
+                    if( this.amigosVerificados.add( amigo ) ){
+                        nivelHashSet.add( amigo );
                     }
                 }
             }
@@ -89,9 +89,9 @@ public class Grafo {
                     y evitar repetirlas en otros niveles */
                     for( Persona amigo: amigos ){
 
-                        // Validamos si ya fue filtrado
-                        if( this.pasados.add( amigo ) ){
-                            nivelHasSet.add( amigo );
+                        // Se realiza el filtrado de nuevo..
+                        if( this.amigosVerificados.add( amigo ) ){
+                            nivelHashSet.add( amigo );
                         }
                     }
                 }
