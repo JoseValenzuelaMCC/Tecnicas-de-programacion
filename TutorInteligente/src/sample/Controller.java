@@ -2,6 +2,7 @@ package sample;
 
 import javafx.fxml.FXML;
 
+import javafx.scene.CacheHint;
 import javafx.scene.control.*;
 
 import javax.tools.*;
@@ -15,7 +16,7 @@ import java.util.Scanner;
 public class Controller {
 
     @FXML
-    Button btnCompile;
+    Button btnCompile, btnExecute;
 
     @FXML
     TextArea txtArea, txtAreaResults;
@@ -56,6 +57,24 @@ public class Controller {
            }
         });
 
+        btnExecute.setOnAction((event) -> {
+        try {
+            this.execute();
+        } catch (Exception ex){
+            System.out.println("Exeption: " + ex);
+        }
+
+        });
+
+    }
+    private void execute(){
+        try{
+            ProcessBuilder pb = new ProcessBuilder("java.exe", "Resolutiion.java");
+            pb.start();
+            System.out.println("Executing");
+        }catch (Exception ex){
+            System.out.println("Exception: " + ex);
+        }
     }
 
     private void createFile() throws IOException {
@@ -64,7 +83,6 @@ public class Controller {
         Writer writer = new FileWriter(sourceFile);
         writer.write(this.txtArea.getText());
         writer.close();
-
     }
 
     private void compile(File sf){

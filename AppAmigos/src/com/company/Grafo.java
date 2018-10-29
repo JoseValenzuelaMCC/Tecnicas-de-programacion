@@ -1,22 +1,21 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class Grafo {
     private HashMap<String, Persona> personas = new HashMap();
 
     private HashSet<Persona> pasados = new HashSet<>();
 
-    private HashMap<Integer, Persona> niveles = new HashMap<Integer, Persona>();
+    private HashMap<Integer, Set> niveles = new HashMap<Integer, Set>();
 
     public Grafo(){
 
     }
 
     public void leerComandos(String comando){
+        int nivel = 1;
+        String nombre;
         String[] divisionComando = comando.split("-");
         
         //Se verifica si el tamaño de la division del comando es 1 o 2, en caso de ser 1 nos dice que el
@@ -24,7 +23,12 @@ public class Grafo {
 
         //Buscar
         if(divisionComando.length == 1){
+            divisionComando = divisionComando[0].split(" ");
 
+            nombre = divisionComando[0];
+            nivel = divisionComando.length == 1 ? 1 : Integer.parseInt( divisionComando[1] );
+
+            this.buscarAmigos( nombre.toLowerCase(), nivel );
         }
         //Agregar..
         else if(divisionComando.length == 2){
@@ -42,6 +46,65 @@ public class Grafo {
                 amigo.setAmigo(persona);
             }
         }
+    }
+
+    private void buscarAmigos(String nombre, int nivel){
+        int cont = 1;
+        Persona persona = this.getPersona(nombre);
+        List<Persona> amigos = persona.getListaAmigos();
+
+        this.niveles.clear();
+        this.pasados.clear();
+
+        this.pasados.add(persona);
+
+
+        do{
+            HashSet<Persona> nivelHasSet = new HashSet<>();
+
+            niveles.put(cont,  nivelHasSet );
+
+            if( cont == 1 ){
+                // Recorremos los amigos
+                for( Persona amigo: amigos ){
+
+                    // Validamos si ya fue filtrado
+                    if( this.pasados.add( amigo ) ){
+                        nivelHasSet.add( amigo );
+                    }
+                }
+            }
+            else{
+
+                /* En el set nivelAnteior agregamos el set de amigos que anteriormente fueron agregados al map niveles,
+                esto para verificar si los amigos del siguiente nivel no han sido repetidos*/
+                Set<Persona> nivelAnterior = niveles.get( cont -1 );
+                /*Recorremos todas las personas del nivel anterior para obtener sus amigos y posteriormente recorrerlos
+                para verificar si se puede o no agregar al hashSet pasados y asi agregar o no al map de niveles
+                el cual se imprimira al finalizar la condicion del while..*/
+                for(Persona personaNivelAnterior : nivelAnterior ){
+                    amigos = personaNivelAnterior.getListaAmigos();
+
+                    /*Se recorren la lista de amigos de las personas del nivel aterior para realizar otro filtrado de peronas
+                    y evitar repetirlas en otros niveles */
+                    for( Persona amigo: amigos ){
+
+                        // Validamos si ya fue filtrado
+                        if( this.pasados.add( amigo ) ){
+                            nivelHasSet.add( amigo );
+                        }
+                    }
+                }
+            }
+
+            cont++;
+        }while( cont <= nivel );
+
+        System.out.println("Buscando los amigos de nivel " + nivel + " de  " + nombre.toUpperCase() );
+        System.out.println( niveles.get(nivel) );
+        System.out.println("\n\n");
+
+
 
     }
 
@@ -61,19 +124,6 @@ public class Grafo {
             personas.put(nombre,persona);
         }
         return persona;
-    }
-
-    public List<Persona> buscar(String nombre, int nivel){
-        List<Persona> amigosNivelN = new ArrayList<>();
-        HashSet<Persona> hashAmigos = new HashSet<>();
-        if(nivel == 1) return this.personas.get(nombre).getListaAmigos();
-        else{
-            for(int i = 0; i < nivel; i++){
-                amigosNivelN.add(this.personas.get(nombre).getListaAmigos().get(i));
-                hashAmigos.add(amigosNivelN);
-            }
-        }
-        return amigosNivelN;
     }
 
 }

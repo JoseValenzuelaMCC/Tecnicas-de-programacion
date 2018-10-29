@@ -1,5 +1,5 @@
-public class Resolutiion{
+public class Ejercicio{
     public static void main(String[] args) {
-	System.out.println("Hola Mundo!")	;
+        //Empieza a codificar la solución
     }
 }

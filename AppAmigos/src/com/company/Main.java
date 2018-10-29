@@ -22,14 +22,20 @@ public class Main {
             System.out.println("Eliga una opcion.. \n1 - Agregar amigo. \n2 - Buscar amigos. \n3 - Salir. " );
             Scanner scanner = new Scanner(System.in);
             int opcion = scanner.nextInt();
-            Scanner scn1 = new Scanner(System.in);
-            String comando = scn1.nextLine();
+
             switch (opcion){
-                case 1: grafo.leerComandos(comando) ; break;
-                case 2: grafo.leerComandos(comando) ;break;
-                case 3: System.exit(-1);break;
-
-
+                case 1:
+                    Scanner scn1 = new Scanner(System.in);
+                    String comandoBuscar = scn1.nextLine();
+                    grafo.leerComandos(comandoBuscar); break;
+                case 2:
+                    Scanner scn2 = new Scanner(System.in);
+                    String comandoAgregar = scn2.nextLine();
+                    grafo.leerComandos(comandoAgregar); break;
+                case 3: System.exit(1); break;
+                default:
+                    System.out.println("Ingresa una opcion valida");
+                    break;
             }
         }
     }

@@ -24,7 +24,7 @@
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
                   <Button fx:id="btnCompile" layoutX="56.0" layoutY="82.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="Compilar" />
-                  <Button fx:id="ejecutarBtn" layoutX="57.0" layoutY="135.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="87.0" text="Ejecutar" />
+                  <Button fx:id="btnExecute" layoutX="57.0" layoutY="135.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="87.0" text="Ejecutar" />
                   <Button fx:id="ayudaBtn" layoutX="55.0" layoutY="186.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="Ayuda" />
                   <Label layoutX="55.0" layoutY="248.0" text="Tiempo" />
                   <Label layoutX="111.0" layoutY="248.0" text="00:00:00" />
