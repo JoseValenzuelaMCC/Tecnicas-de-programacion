@@ -7,8 +7,6 @@ public class CampoDeMinas {
     private int coordX;
     private int coordY;
     private int numMinas;
-    private int columnas;
-    private int filas;
     Casilla[][] tablero = null;
 
     public CampoDeMinas(int coordX, int coordY, int numMinas) {
@@ -18,24 +16,42 @@ public class CampoDeMinas {
         this.tablero = new Casilla[coordX][coordY];
     }
 
-    //Casillas casilla = new Casillas();
-
-
     public void llenarTablero() {
-        Random rnd = new Random();
         for (int i = 0; i < tablero.length; i++) {
             for (int j = 0; j < tablero[0].length; j++) {
                 this.tablero[i][j] = new Casilla();
-                columnas = rnd.nextInt(coordY);
-                filas = rnd.nextInt(coordX);
-                if ((i == filas) && (j == columnas)) {
-                    tablero[i][j].setMina(true);
-                    System.out.println("Es true" + i + j);
-                }
+            }
+        }
+        colocarMinas();
+    }
+
+    private void colocarMinas() {
+        Random rnd = new Random();
+        int cont = 0;
+        do {
+            int x = rnd.nextInt(coordX);
+            int y = rnd.nextInt(coordY);
+            if (!tablero[x][y].getMina()) {
+                cont++;
+                tablero[x][y].setMina(true);
+                llenarValores(x,y);
+            }
+        } while (cont < numMinas);
+    }
+
+    private void llenarValores(int x, int y){
+        for(int i = x -1; i <= x +1; i++){
+            for(int j = y -1; j <= y+1; j++){
+                try{
+                    tablero[i][j].incrementarValor();
+                }catch (Exception ignored){}
             }
         }
     }
 
+    public Casilla[][] getTablero() {
+        return tablero;
+    }
 
     public void imprimir() {
 
@@ -52,13 +68,14 @@ public class CampoDeMinas {
             System.out.print("|");
             for (int j = 0; j < this.coordY; j++) {
                 Casilla cas = this.tablero[i][j];
-
-                //System.out.print(String.format("%2s %1s", cas.getMina(), "|"));
-//
-                if(cas.getMina()){
-                    System.out.print(String.format("%2s %1s", "*", "|"));
-                }else {
+                if(cas.isHide() && !cas.isFlag()){
                     System.out.print(String.format("%2s %1s", "-", "|"));
+                }else if(cas.getMina() && !cas.isFlag()){
+                    System.out.print(String.format("%2s %1s", "*", "|"));
+                }else if(cas.isFlag()){
+                    System.out.print(String.format("%2s %1s", "P", "|"));
+                }else{
+                    System.out.print(String.format("%2s %1s", cas.getValor(), "|"));
                 }
 
             }
@@ -67,3 +84,14 @@ public class CampoDeMinas {
     }
 
 }
+
+    /*Casilla casillaActual = this.tablero.getTablero()[Integer.parseInt(coordenadas[0]) - 1][Integer.parseInt(coordenadas[1]) - 1];
+                    if(casillaActual.isFlag()){
+                            mostrarCasilla(Integer.parseInt(coordenadas[0])-1, Integer.parseInt(coordenadas[1])-1);
+                            if(this.tablero.getTablero()[Integer.parseInt(coordenadas[0]) - 1][Integer.parseInt(coordenadas[1]) - 1].getMina()){
+                            perdiste = true;
+                            }
+                            cont++;
+                            }
+                            this.tablero.imprimir();
+                            break;*/

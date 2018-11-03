@@ -4,7 +4,7 @@ public class Casilla {
     private boolean mina = false;
     private boolean flag = false;
     private int valor = 0;
-    private boolean hide = false;
+    private boolean hide = true;
 
     public void setFlag(boolean flag) {
         this.flag = flag;
@@ -12,6 +12,10 @@ public class Casilla {
 
     public void setHide(boolean hide) {
         this.hide = hide;
+    }
+
+    public boolean isHide(){
+        return hide;
     }
 
     public void setMina(boolean mina) {
@@ -30,6 +34,13 @@ public class Casilla {
         return this.mina;
     }
 
+    public void incrementarValor(){
+        valor++;
+    }
+
+    public boolean isFlag() {
+        return flag;
+    }
 
     @Override
     public String toString() {

@@ -9,6 +9,14 @@ public class Par<T, E> {
         this.y = y;
     }
 
+    public E getY() {
+        return y;
+    }
+
+    public T getX() {
+        return x;
+    }
+
     @Override
     public String toString() {
         return "("+ x +","+ y +")";

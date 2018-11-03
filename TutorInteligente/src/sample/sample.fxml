@@ -36,8 +36,9 @@
          <center>
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <TextArea fx:id="txtArea" layoutX="14.0" layoutY="14.0" prefHeight="267.0" prefWidth="355.0" />
-                  <TextArea fx:id="txtAreaResults" layoutX="14.0" layoutY="300.0" prefHeight="137.0" prefWidth="361.0" />
+                  <TextArea fx:id="txtArea" layoutX="14.0" layoutY="45.0" prefHeight="272.0" prefWidth="355.0" />
+                  <TextArea fx:id="txtAreaResults" layoutX="11.0" layoutY="338.0" prefHeight="129.0" prefWidth="361.0" />
+                  <Label fx:id="desEjercicio" layoutX="14.0" layoutY="14.0" text="Descripcion del ejercicio." />
                </children>
             </Pane>
          </center>

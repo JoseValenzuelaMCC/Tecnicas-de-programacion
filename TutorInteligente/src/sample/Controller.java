@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.fxml.FXML;
+import net.sourceforge.jFuzzyLogic.*;
 
 import javafx.scene.CacheHint;
 import javafx.scene.control.*;
@@ -21,17 +22,21 @@ public class Controller {
     @FXML
     TextArea txtArea, txtAreaResults;
 
+    @FXML
+    Label desEjercicio;
+
     File root = new File("");
 
     File sourceFile = null;
 
     public void initialize(){
-        String textAreaEnunciado = "public class Ejercicio{\n" +
+        String textAreaEnunciado = "public class SolucionEjercicio{\n" +
                 "    public static void main(String[] args) {\n" +
                 "        //Empieza a codificar la solución\n" +
                 "    }\n" +
                 "}";
         txtArea.setText(textAreaEnunciado);
+
         eventButtons();
     }
 
@@ -44,6 +49,8 @@ public class Controller {
         }
 
     }*/
+
+
 
     private void eventButtons(){
         btnCompile.setOnAction((event) -> {
@@ -67,9 +74,10 @@ public class Controller {
         });
 
     }
+
     private void execute(){
         try{
-            ProcessBuilder pb = new ProcessBuilder("java.exe", "Resolutiion.java");
+            ProcessBuilder pb = new ProcessBuilder("java.exe", "Resolution.java");
             pb.start();
             System.out.println("Executing");
         }catch (Exception ex){
@@ -79,7 +87,7 @@ public class Controller {
 
     private void createFile() throws IOException {
 
-        sourceFile = new File(root.getAbsolutePath()+"\\Solutions","\\Resolutiion.java");
+        sourceFile = new File(root.getAbsolutePath()+"\\Solutions","\\SolucionEjercicio.java");
         Writer writer = new FileWriter(sourceFile);
         writer.write(this.txtArea.getText());
         writer.close();
