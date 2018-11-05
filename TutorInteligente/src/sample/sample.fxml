@@ -23,21 +23,23 @@
          <right>
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="btnCompile" layoutX="56.0" layoutY="82.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="Compilar" />
-                  <Button fx:id="btnExecute" layoutX="57.0" layoutY="135.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="87.0" text="Ejecutar" />
-                  <Button fx:id="ayudaBtn" layoutX="55.0" layoutY="186.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="Ayuda" />
+                  <Button fx:id="btnCompile" disable="true" layoutX="56.0" layoutY="82.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="Compilar" />
+                  <Button fx:id="btnExecute" disable="true" layoutX="57.0" layoutY="135.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="87.0" text="Ejecutar" />
+                  <Button fx:id="btnAyuda" disable="true" layoutX="55.0" layoutY="186.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="Ayuda" />
                   <Label layoutX="55.0" layoutY="248.0" text="Tiempo" />
                   <Label layoutX="111.0" layoutY="248.0" text="00:00:00" />
                   <Label layoutX="55.0" layoutY="277.0" prefHeight="21.0" prefWidth="50.0" text="Errores" />
-                  <Label layoutX="157.0" layoutY="277.0" text="0" />
+                  <Label fx:id="errores" layoutX="157.0" layoutY="277.0" text="0" />
+                  <Button fx:id="btnStart" layoutX="57.0" layoutY="327.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="Iniciar" />
+                  <Button fx:id="btnButton" layoutX="68.0" layoutY="378.0" mnemonicParsing="false" text="Button" />
                </children>
             </Pane>
          </right>
          <center>
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <TextArea fx:id="txtArea" layoutX="14.0" layoutY="45.0" prefHeight="272.0" prefWidth="355.0" />
-                  <TextArea fx:id="txtAreaResults" layoutX="11.0" layoutY="338.0" prefHeight="129.0" prefWidth="361.0" />
+                  <TextArea fx:id="txtArea" disable="true" layoutX="14.0" layoutY="45.0" prefHeight="272.0" prefWidth="355.0" />
+                  <TextArea fx:id="txtAreaResults" disable="true" layoutX="11.0" layoutY="338.0" prefHeight="66.0" prefWidth="361.0" />
                   <Label fx:id="desEjercicio" layoutX="14.0" layoutY="14.0" text="Descripcion del ejercicio." />
                </children>
             </Pane>

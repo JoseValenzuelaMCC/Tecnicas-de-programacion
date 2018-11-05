@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d506df28-a0d2-45f7-be3a-ef0fdae76439" name="Default Changelist" comment="" />
+    <list default="true" id="d506df28-a0d2-45f7-be3a-ef0fdae76439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Recursion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/commands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/error" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/InputStreamConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/lib/jFuzzyLogic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/lib/tipper.fcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaRuntimeExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/zxczxc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/Resolutiion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/Resolutiion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Ejercicios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/LeerEjercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/LeerEjercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/sample.fxml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +39,13 @@
     <session id="2013196816">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,7 +76,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
+            <state relative-caret-position="20">
               <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,6 +103,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -84,20 +114,21 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,9 +201,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23691276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -188,7 +220,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -242,7 +274,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
+        <state relative-caret-position="20">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />

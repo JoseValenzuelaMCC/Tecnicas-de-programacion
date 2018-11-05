@@ -11,14 +11,16 @@ public class LeerEjercicios  {
 
     public LeerEjercicios() throws IOException {
         String cadena; //nombre del archivo txt
-        FileReader file = new FileReader("C:\\Users\\JoseA\\IdeaProjects\\AppAmigos\\src\\com\\company\\Ejercicios");
+        FileReader file = new FileReader("D:\\Test\\output.txt");
         BufferedReader buffer = new BufferedReader(file);
 
         while((cadena = buffer.readLine())!=null) {
             listaEjercicios.add(cadena.toLowerCase());
         }
         buffer.close();
-
     }
 
+    public String getResultado() {
+        return listaEjercicios.get(10);
+    }
 }
