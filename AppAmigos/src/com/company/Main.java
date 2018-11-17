@@ -25,13 +25,14 @@ public class Main {
 
             switch (opcion){
                 case 1:
-                    Scanner scn1 = new Scanner(System.in);
-                    String comandoBuscar = scn1.nextLine();
-                    grafo.leerComandos(comandoBuscar); break;
-                case 2:
                     Scanner scn2 = new Scanner(System.in);
                     String comandoAgregar = scn2.nextLine();
                     grafo.leerComandos(comandoAgregar); break;
+                case 2:
+                    Scanner scn1 = new Scanner(System.in);
+                    String comandoBuscar = scn1.nextLine();
+                    grafo.leerComandos(comandoBuscar); break;
+
                 case 3: System.exit(1); break;
                 default:
                     System.out.println("Ingresa una opcion valida");

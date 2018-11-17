@@ -2,20 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07621ec-7984-4e53-9920-cb1f71d697b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Recursion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/lib/jFuzzyLogic.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/lib/tipper.fcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/src/logicaDifusa/Difusa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/src/logicaDifusa/jFuzzyLogic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/src/logicaDifusa/tutor.fcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/jFuzzyLogic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ayudas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Cronometro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/EjercicioModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/EjerciciosModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/FuzzyLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/JsonEjercicios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Nivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/tipper.fcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/tutor.fcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Grafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Grafo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/ListaAmigos" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/ListaAmigos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/Grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/ListaAmigos" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/ListaAmigos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arbol/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arbol/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arbol/out/production/Arbol/com/company/Nodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arbol/out/production/Arbol/com/company/Nodo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/DatosDelJugador" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/DatosDelJugador" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/LogicaDelJuego.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/LogicaDelJuego.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/out/production/Buscaminas/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/src/com/company/DatosDelJugador" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/src/com/company/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/src/com/company/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/src/com/company/LogicaDelJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/src/com/company/LogicaDelJuego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conjuntos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conjuntos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosRecursion/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosRecursion/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosRecursion/com/company/Recursividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosRecursion/com/company/Recursividad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Recursividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Recursividad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Ejercicios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/error" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/TutorInteligente.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/TutorInteligente.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicios" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jFuzzyLogic-Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jFuzzyLogicExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jFuzzyLogicExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jFuzzyLogicExample/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jFuzzyLogicExample/src/sample/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,29 +72,32 @@
     <session id="-556392854">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10540" />
+          <entry key="java" value="12995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10540" />
+          <entry key="JAVA" value="12995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -73,11 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -85,8 +129,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Recursividad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
-              <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="620">
+              <caret line="206" column="24" selection-start-line="206" selection-start-column="24" selection-end-line="206" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,6 +146,17 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>suma</find>
+      <find>ack</find>
+      <find>num</find>
+      <find>euc</find>
+      <find>gr</find>
+      <find>cata</find>
+      <find>factori</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -129,7 +187,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540709935989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541624807873" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +244,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29932886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53691274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,6 +294,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Recursividad.java</url>
+          <line>163</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Recursividad.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -275,18 +352,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Recursividad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="620">
+          <caret line="206" column="24" selection-start-line="206" selection-start-column="24" selection-end-line="206" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

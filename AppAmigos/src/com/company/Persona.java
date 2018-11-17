@@ -6,8 +6,7 @@ import java.util.List;
 
 public class Persona {
     private String nombre;
-    private String apellido;
-    private int edad;
+
     private List<Persona> listaAmigos = new ArrayList<Persona>();
 
     public Persona(String n){
@@ -19,9 +18,6 @@ public class Persona {
     }
 
     public String getNombre(){return this.nombre;}
-
-
-    public Iterator<Persona> iterator(){return listaAmigos.iterator();}
 
     public void setAmigo(Persona amigo){
         listaAmigos.add(amigo);

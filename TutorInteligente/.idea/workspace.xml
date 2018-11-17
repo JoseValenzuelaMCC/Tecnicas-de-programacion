@@ -2,33 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../AppVerificarProposiciones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/commands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/error" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/InputStreamConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../VerificadorProposiciones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/lib/jFuzzyLogic.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaRuntimeExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/zxczxc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppVerificarProposiciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppVerificarProposiciones/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/src/logicaDifusa/Difusa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/src/logicaDifusa/jFuzzyLogic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Difusa/src/logicaDifusa/tutor.fcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jFuzzyLogic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Ayudas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Cronometro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Ejercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/EjercicioModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/EjerciciosModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/FuzzyLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/JsonEjercicios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Nivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tipper.fcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor.fcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Grafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Grafo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/ListaAmigos" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/ListaAmigos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/out/production/AppAmigos/com/company/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/Grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/ListaAmigos" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/ListaAmigos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppAmigos/src/com/company/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppAmigos/src/com/company/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buscaminas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buscaminas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/out/production/EjerciciosRecursion/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/out/production/EjerciciosRecursion/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/out/production/EjerciciosRecursion/com/company/Recursividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/out/production/EjerciciosRecursion/com/company/Recursividad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/src/com/company/Recursividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/src/com/company/Recursividad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Resolutiion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Resolutiion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/SolucionEjercicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/SolucionEjercicio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/SolucionEjercicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/SolucionEjercicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TutorInteligente/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TutorInteligente/sample/Ejercicios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/SolucionEjercicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/SolucionEjercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/error" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TutorInteligente.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TutorInteligente.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TutorInteligente/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TutorInteligente/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TutorInteligente/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TutorInteligente/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TutorInteligente/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TutorInteligente/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Ejercicios" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/LeerEjercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/LeerEjercicios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VerificadorProposiciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VerificadorProposiciones/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jFuzzyLogic-Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jFuzzyLogic-Example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jFuzzyLogicExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jFuzzyLogicExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jFuzzyLogicExample/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jFuzzyLogicExample/src/sample/Controller.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,55 +112,64 @@
     <session id="560885801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Ejercicios" value="511" />
           <entry key="commands" value="7" />
+          <entry key="fcl" value="1649" />
           <entry key="fxml" value="25" />
-          <entry key="java" value="4482" />
+          <entry key="java" value="8064" />
+          <entry key="json" value="3542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4482" />
-          <entry key="PLAIN_TEXT" value="518" />
+          <entry key="JAVA" value="8064" />
+          <entry key="JSON" value="3542" />
+          <entry key="PLAIN_TEXT" value="2167" />
           <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Ejercicios" value="2" />
-          <entry key="class" value="5" />
+          <entry key="class" value="6" />
           <entry key="commands" value="2" />
           <entry key="error" value="1" />
+          <entry key="fcl" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="33" />
+          <entry key="json" value="1" />
           <entry key="output" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="21" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="33" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -153,60 +182,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/EstructuraEjercicios.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Ejercicio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/JsonEjercicios.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Nivel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+        <entry file="file://$PROJECT_DIR$/tipper.fcl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="219">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/LeerEjercicios.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/Ayudas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Ejercicios">
+        <entry file="file://$PROJECT_DIR$/src/sample/EjercicioModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="53" selection-start-column="53" selection-end-column="53" />
+            <state relative-caret-position="760">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+            <state relative-caret-position="940">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -214,6 +276,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -222,6 +285,8 @@
     <findStrings>
       <find>ejecu</find>
       <find>EXECUTE</find>
+      <find>getejer</find>
+      <find>juan</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -235,13 +300,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Ejercicios" />
         <option value="$PROJECT_DIR$/src/sample/InputStreamConsumer.java" />
         <option value="$PROJECT_DIR$/Solutions/commands" />
         <option value="$PROJECT_DIR$/src/sample/LeerEjercicios.java" />
+        <option value="$PROJECT_DIR$/src/sample/Cronometro.java" />
+        <option value="$PROJECT_DIR$/src/FuzzyLogic/FuzzyLogic.java" />
+        <option value="$PROJECT_DIR$/src/FuzzyLogic/tutor.fcl" />
+        <option value="$PROJECT_DIR$/tutor.fcl" />
+        <option value="$PROJECT_DIR$/src/sample/FuzzyLogic.java" />
+        <option value="$PROJECT_DIR$/src/sample/Nivel.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/Ayudas.java" />
+        <option value="$PROJECT_DIR$/src/sample/EjerciciosModel.java" />
+        <option value="$PROJECT_DIR$/src/sample/EjercicioModel.java" />
+        <option value="$PROJECT_DIR$/src/sample/EstructuraEjercicios.java" />
+        <option value="$PROJECT_DIR$/src/sample/Ejercicio.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/JsonEjercicios.json" />
+        <option value="$PROJECT_DIR$/tipper.fcl" />
       </list>
     </option>
   </component>
@@ -262,38 +340,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TutorInteligente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TutorInteligente" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TutorInteligente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TutorInteligente" type="462c0819:PsiDirectoryNode" />
-              <item name="Solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TutorInteligente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TutorInteligente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TutorInteligente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TutorInteligente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -307,14 +354,25 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541392500793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541612183085" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jFuzzyLogic.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gson-2.8.5.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JoseA\IdeaProjects\TutorInteligente" />
+      <recent name="C:\Users\JoseA\IdeaProjects\TutorInteligente\src" />
+      <recent name="C:\Users\JoseA\IdeaProjects\TutorInteligente\src\FuzzyLogic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JoseA\IdeaProjects\TutorInteligente" />
+      <recent name="C:\Users\JoseA\IdeaProjects\TutorInteligente\src\FuzzyLogic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -420,7 +478,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.11409396" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.12080537" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +487,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28456375" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35033557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,7 +513,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.095302016" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.12080537" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,19 +521,19 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18657719" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35033557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -487,6 +545,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3295302" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -504,6 +563,12 @@
           <line>12</line>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Controller.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -562,47 +627,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Solutions/SolucionEjercicio.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Solutions/commands">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Solutions/output">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Solutions/error">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Solutions/commands" />
+    <entry file="file://$PROJECT_DIR$/Solutions/output" />
+    <entry file="file://$PROJECT_DIR$/Solutions/error" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/PrintWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Ejercicios">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -624,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="3883" selection-start-line="3883" selection-end-line="3883" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
         </state>
       </provider>
     </entry>
@@ -662,33 +686,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Solutions/SolucionEjercicio.java" />
+    <entry file="file://$PROJECT_DIR$/Solutions/SolucionEjercicio.class" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/com/sun/javafx/event/EventHandlerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Difusa/src/logicaDifusa/tutor.fcl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jFuzzyLogic.jar!/net/sourceforge/jFuzzyLogic/FIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/LeerEjercicios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="140">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Ejercicios">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutor.fcl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/FuzzyLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/EjerciciosModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Ayudas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+        <state relative-caret-position="940">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/EjercicioModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+        <state relative-caret-position="760">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Ejercicio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/EstructuraEjercicios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Nivel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/JsonEjercicios.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tipper.fcl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -749,6 +896,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -756,7 +904,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Downloads</last-edited>
+          <last-edited>gson-2.8.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

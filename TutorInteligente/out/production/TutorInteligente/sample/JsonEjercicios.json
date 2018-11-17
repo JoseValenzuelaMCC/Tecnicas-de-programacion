@@ -1,0 +1,70 @@
+{
+  "ejercicios": [
+    {
+      "nivel": "PRINCIPIANTE",
+      "descripcion_problema": "Nivel Principiante: Elaborar un programa que imprima Mi primer programa",
+      "solucion_esperada":"Mi primer programa",
+      "ayuda":
+        "Ayuda: El metodo usado para imprimir en pantalla es: System.out.print()"
+    },
+    {
+      "nivel": "PRINCIPIANTE",
+      "descripcion_problema": "Nivel Principiante: Elaborar un programa en el que declares\n dos variables de tipo entero con valores 2 y 20, las sumes e imprimas el resultado",
+      "solucion_esperada":"22",
+      "ayuda":
+        "Ayuda Se puede declarar una variable de tipo entero usando int mas el nombre de la variable"
+    },
+    {
+      "nivel": "PRINCIPIANTE",
+      "descripcion_problema": "Nivel Principiate: Elaborar un programa en el que realices la\n muliplicacion de dos varianbles de tipo etero y el resultado sea 90",
+      "solucion_esperada":"80",
+      "ayuda":
+        "Ayuda: Las operaciones matematicas basicas se utilizan de la siguiente forma \n/ para dividir.\n* para multiplicar.\n+ para sumar.\n- paar restar."
+    },
+    {
+      "nivel": "INTERMEDIO",
+      "descripcion_problema": "Nivel Intermedio: Elabora un programa donde declare una variable de valor 5 y que nos de el resultado al cuadrado",
+      "solucion_esperada":"25",
+      "ayuda":
+
+        "Ayuda: Para elevar un numero al cuadrado basta con multiplicarlo por si mismo."
+    },
+    {
+      "nivel": "INTERMEDIO",
+      "descripcion_problema": "Nivel Intermedio: Declara dos String y concatenalos para\n formar la oracion Inteligencia Artificial",
+      "solucion_esperada":"Inteligencia Artificial",
+      "ayuda":
+        "Ayuda: El simbolo + ademas de sumar n=valores numericos se usa para concatenar dos palabras."
+    },
+    {
+      "nivel": "INTERMEDIO",
+      "descripcion_problema": "Nivel Intermedio: Elabora un programa que reciba por teclado el numero 15 y saque el doble de ese numero.",
+      "solucion_esperada":"2 de Diciembre",
+      "ayuda":
+        "Ayuda: Para obtener el doble de un numero solo hace falta multiplicarlo por 2"
+    },
+    {
+      "nivel": "AVANZADO",
+      "descripcion_problema": "Nivel Avanzado: Desarolla un programa en el que determines\nquien es mayor entre Juan de 25 años y Luis de 23 ",
+      "solucion_esperada":"Juan es mayor",
+      "ayuda":
+        "Ayuda: Para determinar condiciones se puede usar la funcion if"
+    },
+    {
+      "nivel": "AVANZADO",
+      "descripcion_problema": "Nivel Avanzado: Elaborar un programa que utilice un ciclo for para concatenar variables\n para recrear la oracion Instituto Tecnologico de Culiacan",
+      "solucion_esperada":"Instituto Tecnologico de Culiacan",
+      "ayuda":
+        "Ayuda: Los ciclos for tienen la siguiente estructura:\nfor(int i = 0; i < variable; i++){\n }"
+
+    },
+    {
+      "nivel": "AVANZADO",
+      "descripcion_problema": "Nivel Avanzado: Elaborar un programa en el que imprimas los valores de una lista\ncon los siguientes datos: [1,2,3,4,5]",
+      "solucion_esperada":"[1,2,3,4,5]",
+      "ayuda":
+        "Ayuda: Las listas se declaran de la siguiente manera:\nList<Tipo> nombre = new ArrayList<>();\nAdemas se tiene que importar la siguiente libreria:\nimport java.util.List;"
+    }
+
+  ]
+}

@@ -23,24 +23,25 @@ public class Grafo {
 
         //Buscar
         if(divisionComando.length == 1){
-            divisionComando = divisionComando[0].split(" ");
+            try{
+                divisionComando = divisionComando[0].split(" ");
 
-            nombre = divisionComando[0];
-            nivel = divisionComando.length == 1 ? 1 : Integer.parseInt( divisionComando[1] );
-
-            this.buscarAmigos( nombre.toLowerCase(), nivel );
+                nombre = divisionComando[0].toLowerCase();
+                nivel = divisionComando.length == 1 ? 1 : Integer.parseInt( divisionComando[1] );
+                System.out.println();
+                this.buscarAmigos( nombre.toLowerCase(), nivel );
+            }catch (Exception ignored){}
         }
         //Agregar..
         else if(divisionComando.length == 2){
             String[] amigosAgregar = divisionComando[1].split(",");
-            Persona persona = getPersona(divisionComando[0]);
+            Persona persona = getPersona(divisionComando[0].toLowerCase());
             Persona amigo;
 
 
             //recorres el array de amigos..
             for(int i = 0; i < amigosAgregar.length; i++){
-                amigo = getPersona(amigosAgregar[i]);
-
+                amigo = getPersona(amigosAgregar[i].toLowerCase());
                 //Agregar amigo a persona y viceversa..
                 persona.setAmigo(amigo);
                 amigo.setAmigo(persona);
@@ -55,9 +56,7 @@ public class Grafo {
 
         this.niveles.clear();
         this.amigosVerificados.clear();
-
         this.amigosVerificados.add(persona);
-
 
         do{
             HashSet<Persona> nivelHashSet = new HashSet<>();
@@ -65,7 +64,7 @@ public class Grafo {
             niveles.put(cont,  nivelHashSet );
 
             if( cont == 1 ){
-                //
+
                 for( Persona amigo: amigos ){
 
                     // Validamos si ya fue filtrado
@@ -103,9 +102,6 @@ public class Grafo {
         System.out.println("Buscando los amigos de nivel " + nivel + " de  " + nombre.toUpperCase() );
         System.out.println( niveles.get(nivel) );
         System.out.println("\n\n");
-
-
-
     }
 
     @Override

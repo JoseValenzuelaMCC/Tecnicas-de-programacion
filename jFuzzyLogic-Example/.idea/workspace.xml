@@ -2,33 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c9a253-dfd5-4f6a-b4fc-c6747e1aebf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AppVerificarProposiciones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Recursion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/commands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/error" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/InputStreamConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../VerificadorProposiciones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jFuzzyLogic.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaRuntimeExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zxczxc/.idea/zxczxc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppVerificarProposiciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppVerificarProposiciones/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosRecursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosRecursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/FuzzyLogic/FuzzyLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/FuzzyLogic/jFuzzyLogic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/FuzzyLogic/tutor.fcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Cronometro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/Resolutiion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/Resolutiion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Ejercicios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/SolucionEjercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/error" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/Solutions/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/out/production/TutorInteligente/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicios" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Ejercicios" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/LeerEjercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/LeerEjercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TutorInteligente/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TutorInteligente/src/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VerificadorProposiciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VerificadorProposiciones/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,13 +28,13 @@
     <session id="-167375865">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,21 +51,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fcl" value="9" />
+          <entry key="fcl" value="10" />
+          <entry key="iml" value="1" />
           <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="8" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jFuzzyLogic-Example.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tipper.fcl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -106,9 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +126,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,8 +191,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15033557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.152349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,20 +269,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tipper.fcl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tipper.fcl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tipper.fcl" />
     <entry file="jar://$USER_HOME$/Downloads/jFuzzyLogic.jar!/net/sourceforge/jFuzzyLogic/JFuzzyLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -286,21 +278,22 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/OneDrive/Desktop/difusar/GeneradorReglasDifusas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#7747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jFuzzyLogic-Example.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tipper.fcl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
